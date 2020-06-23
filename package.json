@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "show-standalone": "live-server --port=3000 --open=./public/standalone-form.html"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -25,7 +26,9 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "live-server": "^1.2.1",
     "node-sass": "^4.12.0",
+    "prettier": "^2.0.5",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
   }
