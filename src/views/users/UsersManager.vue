@@ -2,10 +2,18 @@
   <section>
     <div class="row">
       <div class="col">
-        <h1>Users</h1>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <router-link to="/users/grid">Browse</router-link>
+          </li>
+        </ul>
       </div>
     </div>
-    <router-view></router-view>
+    <div class="row">
+      <div class="col">
+        <router-view />
+      </div>
+    </div>
   </section>
 </template>
 

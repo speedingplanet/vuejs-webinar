@@ -7,6 +7,7 @@
 - [Vetur](https://vuejs.github.io/vetur/) extension for VS Code
 - [The process: Making Vue 3](https://increment.com/frontend/making-vue-3/) a great article on the development of Vue 3 by project lead/Vue creator Evan You
 - [Vue 3 Roundup](https://madewithvuejs.com/blog/vue-3-roundup)
+- [All Vue 3 RFCs](https://github.com/vuejs/rfcs/pulls?q=is%3Apr+is%3Amerged+label%3A3.x)
 - [Composition API](https://vue-composition-api-rfc.netlify.app/) The new composition API
 - [Context and Provider Patterns in Vue 3](https://markus.oberlehner.net/blog/context-and-provider-pattern-with-the-vue-3-composition-api/) 
 
