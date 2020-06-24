@@ -7,6 +7,7 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
+    "rest-server": "rest-server start",
     "show-standalone": "live-server --port=3000 --open=./public/standalone-form.html"
   },
   "dependencies": {
@@ -16,6 +17,7 @@
     "vuex": "^3.4.0"
   },
   "devDependencies": {
+    "@speedingplanet/rest-server": "0.0.7",
     "@vue/cli-plugin-babel": "~4.4.0",
     "@vue/cli-plugin-eslint": "~4.4.0",
     "@vue/cli-plugin-router": "~4.4.0",
