@@ -111,6 +111,21 @@ export const canadaProvinces = [
   { abbreviation: 'YT', name: 'Yukon Territory' },
 ];
 
+export const countries = [
+  {
+    abbreviation: 'US',
+    name: 'United States',
+  },
+  {
+    abbreviation: 'CA',
+    name: 'Canada',
+  },
+  {
+    abbreviation: 'MX',
+    name: 'Mexico',
+  },
+];
+
 export const provinces = {
   CA: canadaProvinces,
   MX: mexicoStates,
